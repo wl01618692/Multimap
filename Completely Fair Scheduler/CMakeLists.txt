@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.15)
+project(Part2)
+set(CMAKE_CXX_STANDARD 17)
+add_executable(Part2 cfs_sched.cc ../LLRB-Multimap/multimap.h)
+target_compile_options(Part2 PRIVATE -Wall -Werror -Wextra)
